@@ -1,0 +1,68 @@
+
+			* {
+				cursor: pointer;
+			}
+			body {
+	            margin: 0;
+	            height: 100%;
+	            background-color: #f5f6f7;
+	            font-family: Dotun, '돋움', Helvetica, sans-serif;
+	        }
+	
+	        .container {
+	            width: 300px;            
+	            margin: 0 auto;
+	        }
+	
+	        .logo {
+	            text-align: center;
+	        }
+	
+	        input {
+	            display: block;
+	            width: 100%;
+	            border: none;
+	            padding: 8px 12px 8px 12px;
+	            box-sizing: border-box;
+	            background-color: #fff;;
+	            margin-bottom: 10px;
+	        }
+	
+	        .btn_modify {
+	            margin-top: 18px;
+	            background-color: rgba(15, 15, 126, 0.829);
+	            color: #fff;
+	        }
+	
+	        .btn_cancel {
+	            background-color: rgba(11, 128, 11, 0.829);
+	            color: white;
+	        }
+	
+	        .btn_modify, .btn_cancel {
+	            cursor: pointer;
+	            padding: 21px 0 17px;
+	            border: 0;
+	            font-weight: 400;
+	            font-size: 14px;
+	        }
+	
+	        .name_box {
+	            position: relative;
+	        }
+	
+	        .locked1  {
+	            position: absolute;
+	            top: 8px;
+	            right: 10px;
+	        }
+	
+	        .id_box {
+	            position: relative;
+	        }
+	
+	        .locked2 {
+	            position: absolute;
+	            top: 8px;
+	            right: 10px;
+	        }

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- mapper 데이터베이스 접근 및 결과를 반환받는 속성파일 -->
+<mapper namespace="airbnb">
+	<select id="stay_list" resultType="stay">
+	select * from stay
+	</select>
+	
+	<select id="hotel_detail" resultType="stay">
+	select hotelname, hoteladdr from stay
+	</select>
+	
+<!-- 	<select id="stay_count" resultType="stay" parameterType="java.util.HashMap">
+		select * from board order by ref DESC, step ASC
+		select * from
+		( select rank() over( order by ref desc, step) no, b.*
+			from ( select * from stay) s)
+		where no between #{start} and #{end}
+	</select>
+	
+	하단페이지 메뉴의 갯수를 수현하기 위해 전체 게시물 수 조회
+	<select id="stay_count" resultType="int">
+		select count(*) from board
+	</select> -->
+	
+</mapper>
+
+
+
+
+
+
